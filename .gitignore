@@ -1,0 +1,21 @@
+# Ignore compiled binaries
+*.exe
+*.dll
+*.class
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore system-specific files
+Thumbs.db
+Desktop.ini
+
+# Ignore environment-specific files
+.env
+
+.vs/
