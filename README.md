@@ -23,7 +23,7 @@ Before you begin, ensure you have the following tools installed on your machine:
     Create a new SQL Server database for the Shop Store application. If you don't have a SQL Server instance, you can use Docker to run a containerized SQL Server:
 
     ```bash
-    docker run -e "ACCEPT_EULA=Y" -p 1433:1433 --name shopstore-db -d mcr.microsoft.com/mssql/server
+    docker run -e "ACCEPT_EULA=Y" -p 1433:1433 --name ShoppingCart -d mcr.microsoft.com/mssql/server
     ```
 
 3. **Configure the Connection String:**
@@ -32,7 +32,7 @@ Before you begin, ensure you have the following tools installed on your machine:
 
     ```json
     "ConnectionStrings": {
-        "DefaultConnection": "Server=shopstore-db;Database=ShoppingCart;Trusted_Connection=true;Encrypt=true;TrustServerCertificate=true;"
+        "DefaultConnection": "Server=.;Database=ShoppingCart;Trusted_Connection=true;Encrypt=true;TrustServerCertificate=true;"
     }
     ```
 
