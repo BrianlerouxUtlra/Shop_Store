@@ -8211,11 +8211,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\shop-store--\\Shop-store.csproj",
+      "projectUniqueName": "C:\\Users\\brian\\OneDrive\\Pictures\\Shopping_store\\shop-store--\\Shop-store.csproj",
       "projectName": "Shop-store",
-      "projectPath": "C:\\shop-store--\\Shop-store.csproj",
+      "projectPath": "C:\\Users\\brian\\OneDrive\\Pictures\\Shopping_store\\shop-store--\\Shop-store.csproj",
       "packagesPath": "C:\\Users\\brian\\.nuget\\packages\\",
-      "outputPath": "C:\\shop-store--\\obj\\",
+      "outputPath": "C:\\Users\\brian\\OneDrive\\Pictures\\Shopping_store\\shop-store--\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\brian\\AppData\\Roaming\\NuGet\\NuGet.Config",

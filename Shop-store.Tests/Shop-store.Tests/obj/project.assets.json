@@ -8951,11 +8951,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Shop-store.Tests\\Shop-store.Tests\\Shop-store.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\brian\\OneDrive\\Pictures\\Shopping_store\\Shop-store.Tests\\Shop-store.Tests\\Shop-store.Tests.csproj",
       "projectName": "Shop-store.Tests",
-      "projectPath": "C:\\Shop-store.Tests\\Shop-store.Tests\\Shop-store.Tests.csproj",
+      "projectPath": "C:\\Users\\brian\\OneDrive\\Pictures\\Shopping_store\\Shop-store.Tests\\Shop-store.Tests\\Shop-store.Tests.csproj",
       "packagesPath": "C:\\Users\\brian\\.nuget\\packages\\",
-      "outputPath": "C:\\Shop-store.Tests\\Shop-store.Tests\\obj\\",
+      "outputPath": "C:\\Users\\brian\\OneDrive\\Pictures\\Shopping_store\\Shop-store.Tests\\Shop-store.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\brian\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8972,8 +8972,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\shop-store--\\Shop-store.csproj": {
-              "projectPath": "C:\\shop-store--\\Shop-store.csproj"
+            "C:\\Users\\brian\\OneDrive\\Pictures\\Shopping_store\\shop-store--\\Shop-store.csproj": {
+              "projectPath": "C:\\Users\\brian\\OneDrive\\Pictures\\Shopping_store\\shop-store--\\Shop-store.csproj"
             }
           }
         }
