@@ -9,6 +9,9 @@ RUN dotnet restore
 # Copy the application code
 COPY . .
 
+# Exclude the test project from the build
+RUN rm -rf Shop-store.Tests
+
 # Build the application
 RUN dotnet publish -c Release -o /app/publish
 
@@ -17,4 +20,11 @@ FROM mcr.microsoft.com/dotnet/aspnet:7.0 AS final
 WORKDIR /app
 COPY --from=build /app/publish .
 
+# Expose the port the app runs on
+EXPOSE 80
+
+# Set environment variables
+ENV ASPNETCORE_URLS=http://+:80
+
+# Start the application
 ENTRYPOINT ["dotnet", "Shop-store.dll"]
