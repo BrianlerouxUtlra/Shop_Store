@@ -10,7 +10,7 @@ RUN dotnet restore
 COPY . .
 
 # Exclude the test project from the build
-RUN rm -rf Shop-store.Tests
+RUN powershell -Command Remove-Item -Path .\Shop-store.Tests -Recurse -Force
 
 # Build the application
 RUN dotnet publish -c Release -o /app/publish
